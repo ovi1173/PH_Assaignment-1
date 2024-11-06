@@ -72,6 +72,8 @@ font-weight: 600;
 font-size: 20px;
 padding: 21px 24px;
 border: none;
+cursor: pointer;
+
 }
 .banner-container{
     padding-bottom: 45px;
@@ -95,10 +97,6 @@ margin: 48px auto;
     font-weight: 800;
     line-height: 37px;
     text-align: center;
-}
-.dev-intro{
-    /* padding: 80px 97px; */
-    /* margin-top: 74px; */
 }
 
 .why-dev-sec .first-element img{
@@ -189,6 +187,15 @@ margin-bottom: 48px;
     margin-bottom: 48px;
     margin:150px 150px 0px 150px;
 }
+.ins-card-1 a,.ins-card-2 a,.ins-card-3 a{
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+   
+    text-decoration-line: underline;
+}
 .ins-card-1{
     border-radius: 16px;
     background-color: rgba(255, 76, 30, 0.05);
@@ -266,4 +273,21 @@ margin-bottom: 48px;
     line-height: 23px;
     border-radius: 8px;
     border: none;
+}
+/* footer section styles */
+.footer-sec{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    margin: 48px auto;
+    width: 100%;
+    max-width: 1440px;
+}
+.footer-sec h4{
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+
 }
