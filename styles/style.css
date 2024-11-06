@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* Shared styles */
+.dev-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.dev-descrip{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.learn-more{
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+text-decoration: none;
+padding: 12px 20px;
+}
+
 
 /* Banner Section */
 *{
@@ -41,4 +70,74 @@ font-weight: 600;
 font-size: 20px;
 padding: 21px 24px;
 border: none;
+}
+.banner-container{
+    padding-bottom: 45px;
+}
+
+/* Why-dev-sec */
+.why-dev-sec{
+max-width: 1140px;
+max-height: 1393px;
+padding-left: 148px;
+padding-right: 152px;
+background-color: rgba(13, 19, 33, 0.02);
+}
+/* .dev-container{
+
+} */
+.dev-intro h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+.dev-intro{
+    padding: 80px 97px;
+    margin-top: 74px;
+}
+
+.why-dev-sec .first-element img{
+    max-width:260px ;
+    max-height:217px ;
+}
+.why-dev-sec .second-element img{
+    max-width:223px ;
+    max-height:208px;
+}
+.why-dev-sec .third-element img{
+    max-width:240px ;
+    max-height:240px;
+}
+.first-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(-270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    gap: 48px;
+    padding: 48px;
+    margin:48px 0 48px 0 ;
+}
+.second-element{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    gap: 48px;
+    padding: 48px;
+    margin:48px 0 48px 0
+}
+.third-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(-270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    gap: 48px;
+    padding: 48px;
+    margin:48px 0 48px 0 ;
 }
