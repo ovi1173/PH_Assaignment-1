@@ -153,7 +153,7 @@ font-size: 32px;
 font-weight: 800;
 line-height: 37px;
 }
-.inspiration-sec p{
+.ins-sec-des{
 color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 400;
@@ -181,4 +181,41 @@ margin-bottom: 48px;
 }
 
 /* current-target section style */
+.current-target-sec{
+    text-align: center;
+    margin-bottom: 48px;
+    margin:150px 150px 0px 150px;
+}
+.ins-card-1{
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    text-align: left;
+    padding: 40px;
+    max-width:364px;
+    height: auto;
+    margin-top: 48px;
+}
+.cur-tar-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 
+}
+.ins-card-2{
+    background-color:#004CE80D ;
+    border-radius: 16px;
+    text-align: left;
+    padding: 40px;
+    max-width:364px;
+    height: auto;
+    margin-top: 48px;
+}
+.ins-card-3{
+   background-color:#FFDF000D;
+   border-radius: 16px;
+   text-align: left;
+   padding: 40px;
+   max-width:364px;
+   height: auto;
+   margin-top: 48px;
+}
